@@ -1,0 +1,31 @@
+{
+  "name": "linter-cokescript",
+  "version": "1.0.0",
+  "description": "Linter for Cokescript",
+  "main": "lib/init.coke.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cokescript",
+    "linter"
+  ],
+  "author": "Batiste Bieler",
+  "license": "ISC",
+  "dependencies": {
+    "cokescript": "0.0.7",
+    "epegjs": "0.0.55",
+    "glob": "^7.1.2",
+    "virtual-dom": "^2.1.1"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
